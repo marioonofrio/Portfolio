@@ -8,3 +8,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <App />
   </React.StrictMode>,
 )
+
+// If you need to add something specific, please clarify your requirements.// No additional code is required at this placeholder for the current setup.
