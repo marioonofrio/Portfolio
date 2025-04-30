@@ -1,7 +1,14 @@
-import Message from './Message';
+import React from 'react';
+import Header from './components/Header';
+
 
 function App() {
-  return <div><Message></Message></div>
+    return (
+      <div style={{ paddingTop: '4rem'}}>
+        <Header />
+        
+      </div>
+    );
 }
 
 export default App;
