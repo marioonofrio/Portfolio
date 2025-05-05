@@ -1,0 +1,52 @@
+.projects {
+    text-align: center;
+    padding: 50px;
+}
+
+.project-buttons {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: row; /* Arrange buttons horizontally */
+    gap: 50px; /* Add space between buttons */
+    margin-top: 20px;
+    justify-content: center; /* Center the buttons horizontally */
+    width: 100%;
+}
+
+button {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+    align-items: flex-start;
+    justify-content: space-between; /* Space out the title and description */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+}
+
+button h2 {
+    margin: 10 0 10px 0; /* Add bottom margin to create space below the title */
+    
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+button p {
+    
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    align-self: center; /* Keep the description centered */
+}
+
+button:hover {
+    background-color: #555;
+}

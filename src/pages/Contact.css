@@ -21,12 +21,16 @@ input, textarea {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 10px 20px; /* Adjust padding to control the button's size */
     background-color: #333;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: inline-block; /* Prevent the button from stretching */
+    line-height: 1; /* Ensure the text height doesn't add extra space */
+    height: auto; /* Allow the button to size dynamically based on content */
+    width: 200px;;
 }
 
 button:hover {
