@@ -1,5 +1,4 @@
-import React from 'react';
-import './projects.css';
+import './Projects.css';
 
 function Projects() {
     const handleProjectClick = (githubLink: string) => {

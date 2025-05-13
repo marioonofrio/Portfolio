@@ -1,23 +1,19 @@
-.projects {
-    text-align: center;
-    padding: 50px;
+h1 {
+    margin-top: 80px;
 }
 
 .project-buttons {
     display: flex;
-    width: 300px;
-    height: 300px;
-    flex-direction: row; /* Arrange buttons horizontally */
-    gap: 50px; /* Add space between buttons */
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
     margin-top: 20px;
-    justify-content: center; /* Center the buttons horizontally */
     width: 100%;
 }
 
-button {
+.project-buttons button {
     width: 300px;
     height: 300px;
-    overflow: hidden;
     background-color: #333;
     color: white;
     border: none;
@@ -25,28 +21,21 @@ button {
     cursor: pointer;
     font-size: 16px;
     display: flex;
-    flex-direction: column; /* Stack text vertically */
+    flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between; /* Space out the title and description */
-    text-align: center;
-    padding: 20px; /* Add padding for spacing */
+    justify-content: flex-start;
+    text-align: left;
+    padding: 20px;
 }
 
-button h2 {
-    margin: 10 0 10px 0; /* Add bottom margin to create space below the title */
-    
-    font-size: 18px;
-    align-self: flex-start;
+.project-buttons button h2 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
 }
 
-button p {
-    
+.project-buttons button p {
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: normal;
-    align-self: center; /* Keep the description centered */
-}
-
-button:hover {
-    background-color: #555;
+    line-height: 22px;
 }
