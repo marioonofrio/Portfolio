@@ -1,3 +1,14 @@
-.about {
-    margin-top: 40px;
+h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-table, .about-table th, .about-table td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    margin-bottom: 120px;
+}
+
+.about-table th, .about-table td {
+    padding: 80px 128px;
 }
