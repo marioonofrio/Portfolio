@@ -20,6 +20,10 @@ input, textarea {
     box-sizing: border-box;
 }
 
+textarea {
+    padding-bottom: 50px;
+}
+
 button {
     padding: 10px 20px; /* Adjust padding to control the button's size */
     background-color: #333;

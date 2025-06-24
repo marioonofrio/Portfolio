@@ -8,7 +8,6 @@ function Projects() {
     return (
         <div className="projects">
             <h1>My Projects</h1>
-            <p>Here are some of the projects I've worked on:</p>
             <div className="project-buttons">
                 <button onClick={() => handleProjectClick('https://github.com/jzeller04/AudioReminder')}>
                     <h2>AudioReminder</h2>

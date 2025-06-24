@@ -3,17 +3,22 @@ h1 {
 }
 
 .project-buttons {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 rows */
     gap: 30px;
-    justify-content: center;
+    justify-items: center;
+    align-items: center;
     margin-top: 20px;
     width: 100%;
+    max-width: 1000px; /* Optional: limit grid width for better centering */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-buttons button {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: #333;
     color: white;
     border: none;
