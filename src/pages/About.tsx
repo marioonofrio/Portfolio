@@ -2,17 +2,6 @@ import React, { useState } from 'react';
 import './About.css';
 
 function About() {
-    const [rows, setRows] = useState([
-        { key: 'Name', value: 'Mario Onofrio' },
-        { key: 'Age', value: '25' },
-        { key: 'City', value: 'Denton' },
-        { key: 'Hobbies', value: 'Coding, Gaming, Reading' }
-    ]);
-
-    const addRow = () => {
-        setRows([...rows, { key: '', value: '' }]);
-    };
-
     return (
         
         <div>
