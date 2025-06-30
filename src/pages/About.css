@@ -12,3 +12,7 @@ h1 {
 .about-table th, .about-table td {
     padding: 80px 128px;
 }
+
+.about-paragraph {
+    max-width: 800px;
+}
