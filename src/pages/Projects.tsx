@@ -15,9 +15,9 @@ function Projects() {
                         I was responsible for the GitHub Actions section, unit testing, and deployment of the app.
                     </p>
                 </button>
-                <button onClick={() => handleProjectClick('Project 2')}>
-                    <h2>Project 2</h2>
-                    <p>This is empty (for now)</p>
+                <button onClick={() => handleProjectClick('https://github.com/marioonofrio/C-Shell')}>
+                    <h2>C-Shell</h2>
+                    <p>A lightweight custom shell in C supporting command execution, history, redirection, piping, path editing, and interactive or batch modes.</p>
                 </button>
                 <button onClick={() => handleProjectClick('Project 3')}>
                     <h2>Project 3</h2>
