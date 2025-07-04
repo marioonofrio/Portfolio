@@ -1,6 +1,6 @@
 # React Portfolio
 
-## 📌 Overview
+## Overview
 
 This is a personal portfolio website built using **React.js**. It includes a Home page, About page, Projects showcase, and a Contact form. The site highlights my background, technical skills, and projects in a clean and responsive layout.
 
@@ -8,7 +8,7 @@ This is a personal portfolio website built using **React.js**. It includes a Hom
 
 ---
 
-## 🧭 Features
+## Features
 
 - **Home Page** – Brief introduction and welcome message
 - **About Page** – Personal background, education, and skills (Java, C/C++, JavaScript, React, Python, SQL)
@@ -17,16 +17,16 @@ This is a personal portfolio website built using **React.js**. It includes a Hom
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- **Frontend**: React, JSX, CSS Modules or styled-components
+- **Frontend**: React, TSX, CSS
 - **Routing**: React Router
 - **Contact Form**: EmailJS
 - **Deployment**: Netlify
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
