@@ -19,9 +19,9 @@ function Projects() {
                     <h2>C-Shell</h2>
                     <p>A lightweight custom shell in C supporting command execution, history, redirection, piping, path editing, and interactive or batch modes.</p>
                 </button>
-                <button onClick={() => handleProjectClick('Project 3')}>
-                    <h2>Project 3</h2>
-                    <p>This is empty (for now)</p>
+                <button onClick={() => handleProjectClick('https://github.com/marioonofrio/grok-bot')}>
+                    <h2>Grok Bot</h2>
+                    <p>A witty Discord bot powered by Grok AI that replies when mentioned, remembers reply threads, and fits naturally into conversations.</p>
                 </button>
             </div>
         </div>
