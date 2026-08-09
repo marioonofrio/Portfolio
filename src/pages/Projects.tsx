@@ -1,3 +1,4 @@
+import React from 'react';
 import './Projects.css';
 
 function Projects() {
@@ -22,6 +23,10 @@ function Projects() {
                 <button onClick={() => handleProjectClick('https://github.com/marioonofrio/grok-bot')}>
                     <h2>Grok Bot</h2>
                     <p>A witty Discord bot powered by Grok AI that replies when mentioned, remembers reply threads, and fits naturally into conversations.</p>
+                </button>
+                <button onClick={() => handleProjectClick('https://github.com/marioonofrio/Fantasy-Analyzer.git')}>
+                    <h2>Fantasy Analyzer</h2>
+                    <p>A React web app that aggregates fantasy‑sports data, computes player projections and advanced metrics, and provides interactive visualizations and lineup recommendations to help optimize your fantasy team.</p>
                 </button>
             </div>
         </div>
